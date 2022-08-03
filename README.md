@@ -52,6 +52,7 @@ Response:
     },
 		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNmZiMTIxMzUtYWFiYS00MTgwLTgzZmMtODQ4NTAxZmQ3MWY3IiwidXNlcl9yb2xlX2lkIjpudWxsLCJpYXQiOjE2NTk1MDQ2NDAsImV4cCI6MTY1OTU5MTA0MH0.ag6J20xrhwE_ZonGXZNCdyyvQmF58jVIdqgxDWBfSbE"
 }
+```
 
 ## How it Works?
 First you should create account by sign-up, then you will receive code and id. Write the id in the validate-code route into headers and send code with request body.
