@@ -1,0 +1,44 @@
+{
+	"name": "express-postgresql-simple-architecture",
+	"version": "1.0.0",
+	"description": "Express.js, Postgresql - Simple clean architecture using JavaScript",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node src/server.js",
+		"start:dev": "nodemon -e * src/server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xattabuz/express-postgresql-simple-architecture.git"
+	},
+	"keywords": [
+		"EXP",
+		"Express Architecture",
+		"Clean Architecture",
+		"Express Postgresql",
+		"Express JWT",
+		"Postgresql"
+	],
+	"author": "Diyorbek Rustamjonov <drustamjonov0919@gmail.com>, xattab.uz",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/xattabuz/express-postgresql-simple-architecture/issues"
+	},
+	"homepage": "https://github.com/xattabuz/express-postgresql-simple-architecture#readme",
+	"dependencies": {
+		"dotenv": "^16.0.1",
+		"express": "^4.18.1",
+		"express-fileupload": "^1.4.0",
+		"helmet": "^5.1.1",
+		"ip": "^1.1.8",
+		"joi": "^17.6.0",
+		"jsonwebtoken": "^8.5.1",
+		"morgan": "^1.10.0",
+		"pg": "^8.7.3",
+		"pg-format": "^1.0.4"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.19"
+	}
+}

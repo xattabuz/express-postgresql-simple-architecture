@@ -1,0 +1,11 @@
+1659478793329___/api/auth/login___POST___InternalServerError__user_id is not defined
+1659478794809___/api/auth/login___POST___InternalServerError__user_id is not defined
+1659480848716___/api/auth/register___POST___InternalServerError__syntax error at or near "u"
+1659480889137___/api/auth/register___POST___InternalServerError__syntax error at or near "u"
+1659480978389___/api/auth/register___POST___InternalServerError__column "user_role_id" is of type uuid but expression is of type character varying
+1659481099941___/api/auth/register___POST___InternalServerError__invalid input syntax for type uuid: "1659481099887-memoji.jpeg"
+1659481149840___/api/auth/register___POST___InternalServerError__null value in column "user_role_id" of relation "users" violates not-null constraint
+1659481199728___/api/auth/register___POST___InternalServerError__resolve is not defined
+1659481240997___/api/auth/register___POST___InternalServerError__duplicate key value violates unique constraint "users_user_phone_number_key"
+1659481274887___/api/auth/register___POST___InternalServerError__duplicate key value violates unique constraint "users_user_phone_number_key"
+1659481279945___/api/auth/register___POST___InternalServerError__duplicate key value violates unique constraint "users_user_phone_number_key"
